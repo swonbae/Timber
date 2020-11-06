@@ -10,10 +10,16 @@ using namespace sf;
 int main()
 {
 	// Create a video mode object
-	VideoMode vm(1920, 1080);
+	//VideoMode vm(1920, 1080);
+	// Low res code
+	VideoMode vm(1280, 720);
 
 	// Create and open a window for the game
-	RenderWindow window(vm, "Timber!!!", Style::Fullscreen);
+	//RenderWindow window(vm, "Timber!!!", Style::Fullscreen);
+	// Low res code
+	RenderWindow window(vm, "Timber!!!");
+	View view(sf::FloatRect(0, 0, 1280, 720));
+	window.setView(view);
 
 	// Create a texture to hold a graphic on the GPU
 	Texture textureBackground;
