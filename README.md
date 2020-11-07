@@ -1,7 +1,7 @@
 # Timber
 C++ Game Tutorial
 
-written by Seung Won Bae
+written by SW B
 
 ## Instruction
 1. Download lastest stable SFML version from 'https://www.sfml-dev.org/download.php'
